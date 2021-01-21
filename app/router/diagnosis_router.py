@@ -1,6 +1,8 @@
-from fastapi import APIRouter, Response, status
 from curtis import CurtisEngine, CurtisFact
 from curtis.utils.encoding import diagnosis_indexes
+
+from fastapi import APIRouter, Response, status
+
 from ..model.patient_info import PatientInfo
 
 router = APIRouter()
