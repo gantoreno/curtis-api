@@ -42,6 +42,10 @@ With the virtual environment active, run the tests with [`pytest`](https://docs.
 (env) $ pytest
 ```
 
+### Docs
+
+The Curtis server has its own auto-generated documentation since FastAPI uses [Swagger](https://swagger.io/) for this type of tasks. Run the application and head to the application's URL followed by the `/docs` route.
+
 ### License
 
 This project is licensed under the [MIT](https://es.wikipedia.org/wiki/Licencia_MIT) license.
