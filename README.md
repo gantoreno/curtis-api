@@ -11,8 +11,8 @@ This server will contain a series of endpoints in order to perform ECG-related s
 First, clone the repo:
 
 ```sh
-$ git clone https://github.com/gantoreno/curtis-api.git
-$ cd curtis-api
+$ git clone https://github.com/gantoreno/curtis-server.git
+$ cd curtis-server
 ```
 
 Next, create a virtual environment named `env` with `venv`, and activate it:
