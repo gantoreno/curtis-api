@@ -1,4 +1,4 @@
-from curtis import CurtisEngine, CurtisFact
+from curtis import CurtisEngine, CurtisFacts
 from curtis.utils.encoding import diagnosis_indexes
 
 from fastapi import APIRouter, Response, status
@@ -28,8 +28,8 @@ async def diagnose(patient_info: PatientInfo, response: Response):
     try:
         curtis = CurtisEngine()
 
-        curtis.declare_fact(
-            CurtisFact(
+        curtis.declare_facts(
+            CurtisFacts(
                 sex=patient_info.sex,
                 age=patient_info.age,
                 height=patient_info.height,
