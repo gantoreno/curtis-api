@@ -7,7 +7,7 @@ router = APIRouter()
 
 
 @router.post('/api/diagnose', status_code=status.HTTP_200_OK)
-def diagnose(patient_info: PatientInfo, response: Response) -> str:
+def diagnose(patient_info: PatientInfo, response: Response):
     """
     Perform a diagnosis
 
