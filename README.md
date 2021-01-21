@@ -1,4 +1,4 @@
-# Curtis API: Curtis server files
+# Curtis API: Server files
 
 ![Python application](https://github.com/gantoreno/curtis-api/workflows/Python%20application/badge.svg)
 
