@@ -1,7 +1,8 @@
 from curtis import CurtisEngine, CurtisFacts
+from curtis.exceptions import CurtisParameterError
 from curtis.utils.encoding import diagnosis_indexes
 
-from fastapi import APIRouter, Response, status
+from fastapi import APIRouter, Response, status, HTTPException
 
 from ..model.patient_info import PatientInfo
 
@@ -46,6 +47,5 @@ async def diagnose(patient_info: PatientInfo, response: Response):
         diagnosis = curtis.diagnose()
 
         return diagnosis_indexes[diagnosis]
-    except:
-        response.status_code = status.HTTP_400_BAD_REQUEST
-        return 'Invalid fields provided'
+    except CurtisParameterError as e:
+        raise HTTPException(status_code=400, detail=str(e))
