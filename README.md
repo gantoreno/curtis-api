@@ -1,8 +1,12 @@
-# Curtis Server: The public API
+<div align="center">
+    <img src="assets/logo.svg" width="300" height="300"></img>
+</div>
+
+# Curtis: The server
 
 ![Python application](https://github.com/gantoreno/curtis-api/workflows/Python%20application/badge.svg)
 
-Server files for [Curtis](https://github.com/gantoreno/curtis-engine)' public REST API.
+Files for [Curtis](https://github.com/gantoreno/curtis-engine)' public REST API.
 
 This server will contain a series of endpoints in order to perform ECG-related stuff, mostly analysis and diagnosis over some given patient's info. Built with [tiangolo](https://github.com/tiangolo)'s [FastAPI](https://fastapi.tiangolo.com/) library.
 
