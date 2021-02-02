@@ -52,4 +52,4 @@ The Curtis server has its own auto-generated documentation since FastAPI uses [S
 
 ### License
 
-This project is licensed under the [MIT](https://es.wikipedia.org/wiki/Licencia_MIT) license.
+This project is licensed under the [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) license.
