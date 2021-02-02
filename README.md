@@ -4,7 +4,7 @@
 
 # Curtis: The server
 
-![Python application](https://github.com/gantoreno/curtis-api/workflows/Python%20application/badge.svg)
+![Python application](https://github.com/gantoreno/curtis-api/workflows/Python%20application/badge.svg) ![License](https://img.shields.io/github/license/gantoreno/curtis-server)
 
 Files for [Curtis](https://github.com/gantoreno/curtis-engine)' public REST API.
 
