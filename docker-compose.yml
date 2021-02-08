@@ -1,0 +1,10 @@
+version: "3"
+services:
+  curtis-server:
+    build: .
+    image: "curtis-server"
+    container_name: "curtis-server"
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/app
