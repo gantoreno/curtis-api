@@ -19,7 +19,11 @@ $ git clone https://github.com/gantoreno/curtis-server.git
 $ cd curtis-server
 ```
 
-Next, create a virtual environment named `env` with `venv`, and activate it:
+Now, follow the steps to run the server in your preferred way.
+
+### With virtual environments
+
+Create a virtual environment named `env` with `venv`, and activate it:
 
 ```sh
 $ python -m venv env
@@ -37,6 +41,16 @@ Finally, run the app with `uvicorn`:
 ```sh
 (env) $ uvicorn app.main:app
 ```
+
+### With Docker
+
+In your terminal:
+
+```sh
+$ docker-compose up
+```
+
+This will create a Docker image and container named `curtis-server`. The container will be available at [http://0.0.0.0:8000](http://0.0.0.0:8000).
 
 ### Testing
 
